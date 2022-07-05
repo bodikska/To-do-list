@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(to right, #1d6868, #dfe6bd);
+}
+.logo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+    height: 50px;
+}
+h1 {
+    color: white;
+    line-height: 50px;
+    margin: 0;
+}
+.logo img {
+    height: 30px;
+    padding-top: 10px;
+}
+.all-orders {
+    width: 800px;
+    min-height: 300px;
+    margin: 50px auto;
+}
+.orders {
+    background-color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.ordersParagraf {
+    min-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.orders input[type='image'] {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    padding-top: 10px;
+}
+.orders p {
+
+    margin: 0;
+    margin-left: 20px;
+    font-size: 22px;
+    max-width: 700px;
+}
+.Allchacked {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.orders input[type='checkbox'] {
+    background-color: green;
+
+}
+.chPointDel {
+    height: 50px;
+
+}
+.addOrder {
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.newOrder { 
+    width: 300px;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    box-sizing:border-box;
+    font-family: Arial;
+    font-size: 14px;
+    margin-right: 0;
+    border-right: 0;
+    box-shadow: 2px 2px 2px grey;
+
+}
+input[type=submit] {
+    box-sizing:border-box;
+    width: 100px;
+    font-family: Arial;
+    font-size: 14px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    background-color: lightgray;
+    border:none;
+    margin-left: 0;
+    border-left:0;
+    box-shadow: 2px 2px 2px grey;
+
+}
+input[type=submit]:hover {
+    color: white;
+    background: grey;
+}
+input[type=submit]:active {
+    color: white;
+    background: linear-gradient(to right, #1d6868, #dfe6bd);
+}
